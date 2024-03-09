@@ -1,4 +1,5 @@
 
+// movements
 export interface SpaceDirection {
     f: number,
     b: number,
@@ -8,7 +9,7 @@ export interface SpaceDirection {
     l: Direction
 }
 
-
+// directions
 export interface DirectionDats {
      N: SpaceDirection,
      S: SpaceDirection,
@@ -23,6 +24,8 @@ export interface DirectionDats {
      DN: SpaceDirection,
      DS: SpaceDirection,
 }
+
+// request body
 export interface RequestBody {
     position: number[],
     movement: Position[]

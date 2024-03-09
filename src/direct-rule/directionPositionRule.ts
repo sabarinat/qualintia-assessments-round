@@ -7,7 +7,7 @@ export const returnData: () => DirectionDats = () => {
         "l": "W",
         "r": "E",
         "u": "UN",
-        "d": "DS" 
+        "d": "DN" 
     },
     "S": {
         "f": -1,
@@ -15,7 +15,7 @@ export const returnData: () => DirectionDats = () => {
         "l": "E",
         "r": "W",
         "u": "US",
-        "d": "DN" 
+        "d": "DS" 
     },
     "E": {
         "f": 1,
@@ -23,7 +23,7 @@ export const returnData: () => DirectionDats = () => {
         "l": "N",
         "r": "S",
         "u": "UE",
-        "d": "DW" 
+        "d": "DE" 
     },
     "W": {
         "f": -1,
@@ -31,7 +31,7 @@ export const returnData: () => DirectionDats = () => {
         "l": "S",
         "r": "N",
         "u": "UW",
-        "d": "DE" 
+        "d": "DW" 
     },
     "UN": {
         "f": 1,
@@ -39,7 +39,7 @@ export const returnData: () => DirectionDats = () => {
         "l": "W",
         "r": "E",
         "u": "UN",
-        "d": "DS"  
+        "d": "N"  
     },
     "US": {
             "f": 1,
@@ -47,7 +47,7 @@ export const returnData: () => DirectionDats = () => {
             "l": "E",
             "r": "W",
             "u": "US",
-            "d": "DN" 
+            "d": "S" 
     },
     "UE": {
         "f": 1,
@@ -55,7 +55,7 @@ export const returnData: () => DirectionDats = () => {
         "l": "N",
         "r": "S",
         "u": "UE",
-        "d": "DW"
+        "d": "E"
     },
     "UW" : {
         "f": 1,
@@ -63,38 +63,38 @@ export const returnData: () => DirectionDats = () => {
         "l": "S",
         "r": "N",
         "u": "UW",
-        "d": "DE"
+        "d": "W"
     }, 
     "DN":{
         "f": -1,
         "b": 1,
-        "l": "E",
-        "r": "W",
-        "u": "US",
+        "l": "W",
+        "r": "E",
+        "u": "N",
         "d": "DN" 
     }, 
     "DS": {
         "f": -1,
         "b": 1,
-        "l": "W",
-        "r": "E",
-        "u": "UN",
+        "l": "E",
+        "r": "W",
+        "u": "S",
         "d": "DS"  
     },
     "DE" : {
         "f": -1,
         "b": 1,
-        "l": "S",
-        "r": "N",
-        "u": "UW",
+        "l": "N",
+        "r": "S",
+        "u": "E",
         "d": "DE"
     },
     "DW": {
         "f": -1,
         "b": 1,
-        "l": "N",
-        "r": "S",
-        "u": "UE",
+        "l": "S",
+        "r": "N",
+        "u": "W",
         "d": "DW"
     }
 

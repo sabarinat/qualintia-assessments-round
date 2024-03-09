@@ -1,7 +1,7 @@
 import  returnData   from '../direct-rule/directionPositionRule'
 import  { Position, Direction, DirectionDats, RequestBody } from '../interface/spacecraft-direction.interface';
 import { spaceposition, spacepositionNumbre } from '../service/spacecraft-position'
-
+// find the position and direction of space craft
 export const findPostionDistance: (req: RequestBody) => {position: number[], direction: string} = (req: RequestBody) => {
     let position: number[] = req.position;
        let movement: Position[] = req.movement;
